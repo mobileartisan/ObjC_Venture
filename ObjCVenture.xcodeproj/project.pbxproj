@@ -14,6 +14,7 @@
 		EAC198BB1F7500F900EE5B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC198BA1F7500F900EE5B85 /* Assets.xcassets */; };
 		EAC198BE1F7500FA00EE5B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC198BC1F7500FA00EE5B85 /* LaunchScreen.storyboard */; };
 		EAC198C91F7500FA00EE5B85 /* ObjCVentureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC198C81F7500FA00EE5B85 /* ObjCVentureTests.m */; };
+		EAC198D51F750E8500EE5B85 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC198D41F750E8500EE5B85 /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EAC198C41F7500FA00EE5B85 /* ObjCVentureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCVentureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC198C81F7500FA00EE5B85 /* ObjCVentureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCVentureTests.m; sourceTree = "<group>"; };
 		EAC198CA1F7500FA00EE5B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC198D31F750D1700EE5B85 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		EAC198D41F750E8500EE5B85 /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				EAC198B21F7500F900EE5B85 /* AppDelegate.m */,
 				EAC198B41F7500F900EE5B85 /* ViewController.h */,
 				EAC198B51F7500F900EE5B85 /* ViewController.m */,
+				EAC198D31F750D1700EE5B85 /* SampleProtocol.h */,
+				EAC198D41F750E8500EE5B85 /* SampleProtocol.m */,
 				EAC198B71F7500F900EE5B85 /* Main.storyboard */,
 				EAC198BA1F7500F900EE5B85 /* Assets.xcassets */,
 				EAC198BC1F7500FA00EE5B85 /* LaunchScreen.storyboard */,
@@ -216,6 +221,7 @@
 				EAC198B61F7500F900EE5B85 /* ViewController.m in Sources */,
 				EAC198B31F7500F900EE5B85 /* AppDelegate.m in Sources */,
 				EAC198B01F7500F900EE5B85 /* main.m in Sources */,
+				EAC198D51F750E8500EE5B85 /* SampleProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

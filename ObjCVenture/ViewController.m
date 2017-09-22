@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    SampleProtocol *sampleProtocol = [[SampleProtocol alloc]init];
+    sampleProtocol.delegate = self;
+    [_myTitleLabel setText:@"Processing..."];
+    [sampleProtocol startSampleProcess];
 }
 
 
@@ -29,4 +33,10 @@
 - (IBAction)setTitleLabel:(UIButton *)sender {
     [_myTitleLabel setText:@"Helo"];
 }
+
+#pragma mark - Sample protocol delegate
+- (void)processCompleted {
+    [_myTitleLabel setText:@"Process Completed"];
+}
+
 @end
